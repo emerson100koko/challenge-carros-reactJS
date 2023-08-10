@@ -1,0 +1,37 @@
+.ct-search-bar {
+    display: flex;
+  }
+  
+  .ct-search-bar input {
+    padding: 0 15px;
+    border: 1px solid var(--color-searchbar);
+    border-radius: 5px 0px 0px 5px;
+    border-right: none;
+  
+  }
+  
+  .ct-form-bar input::placeholder {
+    color: var(--dsc-color-font-placeholder);
+  }
+  
+  .ct-search-bar input:focus {
+    outline: none;
+  }
+  
+  .ct-form-control {
+    height: 40px;
+    width: 100%;
+  }
+  
+  
+  .ct-search-bar-submit {
+    background-color: var(--color-button-blue);
+    color: var(--color-bg-primary);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0 11px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+  }
